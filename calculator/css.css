@@ -1,0 +1,123 @@
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("C:/Users/surya/Downloads/404142.png");
+    padding: 10px;
+    width: 290px;
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.808);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px;
+}
+
+
+.btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 5px; 
+    margin-bottom: 10px;
+}
+
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.849);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.87);
+}
+
+
+.button:hover {
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.792);
+}
+
+.heading{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.849);
+    
+}
+
+.input {
+    background: transparent;
+    border-style: none;
+    color: white;
+    width: 250px;
+    height: 45px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    text-align: right; 
+    outline: none; 
+    pointer-events: none;
+}
+
+.input::placeholder{
+    color: white;
+}
+
+body{
+    background-image: url('C:/Users/surya/Downloads/360_F_116883786_wuckft1sNw1ouQfJ6FuquZnxea3qBlxy.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#ac, #del {
+    background-color: orange; 
+    color: white;
+}
+
+.btn:nth-child(2) button:nth-child(3),
+.btn:nth-child(2) button:nth-child(4),
+.btn:nth-child(3) button,
+.btn:nth-child(4) button,
+.btn:nth-child(5) button,
+.btn:nth-child(6) button:nth-child(1),
+.btn:nth-child(6) button:nth-child(2),
+.btn:nth-child(6) button:nth-child(3) {
+    background-image: url("C:/Users/surya/Downloads/404142.png");
+}
+
+.btn:nth-child(6) button:nth-child(4){
+    background-color: orange;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.788);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.849);
+    
+
+    
+}
+
+
+
+.heading .sumsmart {
+    
+    color: orange;  
+}
+
